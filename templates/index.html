@@ -1,0 +1,86 @@
+{% extends "includes/base.html" %}
+
+{% block style %}
+{% include "includes/style.html" %}
+{% endblock %}
+
+{% block link %}
+{% include "includes/link.html" %}
+{% endblock %}
+
+{% block body %}
+<div id="main">
+    <div id="header">
+        <div id="logo">
+            <div id="logo_text">
+                <!-- class="logo_colour", allows you to change the colour of the text -->
+                <h1><span class="logo_colour">Факты и не только =)</span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+        <div id="sidebar_container">
+            <div class="sidebar">
+                <div class="sidebar_top"></div>
+                <div class="sidebar_item">
+                    <!-- insert your sidebar items here -->
+                    <h3>Последние новости</h3>
+                    <h5>Спецально для вас мы добавили форму для обратной связи.</h5>
+                    <h5>Работаем над оформлением сайта.</h5>
+                    <p>Можете ознакомится с нашими <br/><a href="#">наградами.</a></p>
+                </div>
+                <div class="sidebar_base"></div>
+            </div>
+            <div class="sidebar">
+                <div class="sidebar_top"></div>
+                <div class="sidebar_item">
+                    <h3>Поиск по сайту</h3>
+                    <form method="post" action="#" id="search_form">
+                        <p>
+                            <input class="search" type="text" name="search_field" value="что ищем?....."/>
+                        </p>
+                    </form>
+                </div>
+                <div class="sidebar_base"></div>
+            </div>
+        </div>
+        <div id="content">
+            <!-- insert the page content here -->
+            <h1>Добро пожаловать на сайт.<br>
+                Вашему вниманию будет предложена подборка занимательных новостей.
+            </h1>
+            <p>У нас работает огромный штат специалистов, если у вас возникли вопросы или вы являетесь обладателем
+                интересного факта можете смело <a href={{ url.contact }}>отправить</a>) его нам,
+                и мы обязательно его добавим в нашу подборку!
+            </p>
+            <p><strong>Новость 1:</strong>Полюса нагреваются гораздо быстрее, чем в среднем по миру, что приводит
+                к беспрецедентным тепловым волнам и ускоренному таянию ледников.
+            </p>
+            <p><strong>Новость 2:</strong>На Марсе аппарат Perseverance завершает вторую крупную научную кампанию,
+                проводимую в дельте реки
+                кратера Езеро. Недавно он завершил новый отбор.
+            <p><strong>Новость 3:</strong>Астрономы считают, что звезды образуются в основном в галактиках, но есть
+                наблюдения, которые показывают,
+                что звезды могут образовываться и вне
+            </p>
+            <p><strong>Новость 4:</strong>Камера космического аппарата Mars Reconnaissance Orbiter демонстрирует нам эту
+                потрясающую
+                фотографию поверхности Марса, на которой видны дюны странной формы.
+            </p>
+            <h2>А знаете ли вы?</h2>
+            <ul>
+                <li> Взрослые люди состоят из 60% воды</li>
+                <li>Перед изобретением ластика следы карандаша на бумаге стирали хлебом</li>
+                <li>У финнов есть слово, которое означает «пить дома, в одиночестве, в трусах»</li>
+                <li>В Сингапуре запрещена жевательная резинка</li>
+                <li>В России пиво не считалось алкогольным напитком до 2013 года. А зря!</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+{% include "includes/footer.html" %}
+{% endblock %}

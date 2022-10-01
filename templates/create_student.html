@@ -1,0 +1,23 @@
+{% extends "includes/base.html" %}
+
+{% block style %}
+{% include "includes/style.html" %}
+{% endblock %}
+
+{% block link %}
+{% include "includes/link.html" %}
+{% endblock %}
+
+{% block body %}
+<div>
+    <h1>Создание студента</h1>
+    <form method="post">
+        <input type="text" name="name" placeholder="Имя">
+        <button type="submit">Сохранить</button>
+    </form>
+</div>
+{% endblock %}
+
+{% block footer %}
+{% include "includes/footer.html" %}
+{% endblock %}

@@ -1,0 +1,129 @@
+2022-10-01 14:00:17 : log---> Serving on port 8020...
+2022-10-01 14:00:20 : log---> add new user for name ;tyz
+2022-10-01 14:00:20 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:00:24 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:00:25 : log---> add new user for name ;tyz
+2022-10-01 14:00:25 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:00:35 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:00:38 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:00:38 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:00:39 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:00:39 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:00:48 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:01:49 : log---> Serving on port 8020...
+2022-10-01 14:01:51 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:01:56 : log---> add new user for name jek
+2022-10-01 14:01:56 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:02:02 : log---> add new user for name jek
+2022-10-01 14:02:02 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:02:05 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:12:51 : log---> Serving on port 8020...
+2022-10-01 14:12:53 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:12:57 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:13:05 : log---> add new user for name jek
+2022-10-01 14:13:05 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:13:09 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:13:12 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:13:12 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:14:24 : log---> Serving on port 8020...
+2022-10-01 14:14:30 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:14:32 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:14:34 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:14:37 : log---> add new user for name jek
+2022-10-01 14:14:37 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:14:38 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:14:39 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:14:39 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:15:19 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:15:19 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:16:24 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:16:24 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:16:24 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:16:24 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:16:25 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:16:25 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:16:25 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:16:25 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:16:29 : log---> Serving on port 8020...
+2022-10-01 14:16:30 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:16:30 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:16:56 : log---> Serving on port 8020...
+2022-10-01 14:16:58 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:00 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:03 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:05 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:07 : log---> add new user for name jek
+2022-10-01 14:17:08 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:10 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:18 : log---> create Category
+2022-10-01 14:17:18 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:20 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:26 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:33 : log---> create course
+2022-10-01 14:17:33 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:37 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:46 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:48 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:53 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:17:55 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:18:02 : log---> add new user for name jek2
+2022-10-01 14:18:02 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:18:04 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:18:06 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:18:10 : log---> add new user for name jek3
+2022-10-01 14:18:10 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:18:11 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:18:13 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:18:17 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:18:30 : log---> create course
+2022-10-01 14:18:30 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:18:33 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:18:36 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:18:43 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:19:32 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:21:13 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:21:37 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:21:43 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:34:45 : log---> Serving on port 8020...
+2022-10-01 14:34:50 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:34:53 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:34:56 : log---> create Category
+2022-10-01 14:34:57 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:34:57 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:34:59 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:35:02 : log---> add new user for name jek
+2022-10-01 14:35:02 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:35:04 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:35:05 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:35:40 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:35:42 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:35:44 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:35:49 : log---> create course
+2022-10-01 14:35:49 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:35:50 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:35:52 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:36:00 : log---> Error: 'list' object has no attribute 'encode'
+2022-10-01 14:36:44 : log---> Serving on port 8020...
+2022-10-01 18:28:18 : log---> Serving on port 8020...
+2022-10-01 18:29:26 : log---> Serving on port 8020...
+2022-10-01 18:30:16 : log---> Serving on port 8020...
+2022-10-01 18:33:15 : log---> Serving on port 8020...
+2022-10-01 18:33:47 : log---> Serving on port 8020...
+2022-10-01 18:36:55 : log---> Serving on port 8020...
+2022-10-01 18:37:04 : log---> add new user for name jek
+2022-10-01 18:37:42 : log---> add new user for name варвр
+2022-10-01 18:37:52 : log---> add new user for name комфорт Супер
+2022-10-01 18:38:52 : log---> add new user for name !"=:"№242472
+2022-10-01 18:40:04 : log---> Serving on port 8020...
+2022-10-01 18:40:10 : log---> add new user for name апрапра
+2022-10-01 18:40:19 : log---> add new user for name 12345678
+2022-10-01 18:40:43 : log---> Serving on port 8020...
+2022-10-01 18:40:46 : log---> add new user for name ываывпыв
+2022-10-01 18:40:53 : log---> add new user for name jek
+2022-10-01 18:40:59 : log---> add new user for name 123456789
+2022-10-01 18:41:04 : log---> add new user for name !"№%:,.;()_+
+2022-10-01 18:41:49 : log---> add new user for name !"№%:,.;()_+
+2022-10-01 18:44:24 : log---> Serving on port 8020...
+2022-10-01 19:11:59 : log---> create Category
+2022-10-01 19:12:07 : log---> create course
+2022-10-01 19:12:23 : log---> add new user for name jek

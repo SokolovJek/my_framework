@@ -1,0 +1,41 @@
+{% extends "includes/base.html" %}
+{% block style %}
+{% include "includes/style.html" %}
+{% endblock %}
+
+{% block link %}
+{% include "includes/link.html" %}
+{% endblock %}
+{% block body %}
+<ul>
+    {% for course in courses %}
+    <h1>
+        <li><span>курс - {{ course.name }},
+                 цена за курс: {{ course.price }}
+				<---<a href={{ url.copy_course }}?name={{ course.name }}>сделать копию</a></span></li>
+    </h1>
+    {% endfor %}
+
+</ul>
+<br>
+<br>
+
+<div>
+    <h1>Создание курса для категории "{{ category.name }}"</h1>
+    <form action="" method="post">
+        <fieldset>
+            <p><label class="title" for="name">Введите название курса:</label>
+                <input type="text" name="name" id="name"><br/>
+            </p>
+            <p><label class="title" for="price">Введите цену курса:</label>
+                <input type="text" name="price" id="price"><br/>
+            </p>
+        </fieldset>
+        <div class="submit"><input type="submit" value="Создать и вернутся в главное меню"/></div>
+    </form>
+</div>
+{% endblock %}
+{% block footer %}
+<br>
+{% include "includes/footer.html" %}
+{% endblock %}

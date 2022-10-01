@@ -1,0 +1,40 @@
+{% extends "includes/base.html" %}
+{% block style %}
+{% include "includes/style.html" %}
+{% endblock %}
+
+
+{% block link %}
+{% include "includes/link.html" %}
+{% endblock %}
+{% block body %}
+<h1>
+    Список всех категорий:
+</h1>
+<br>
+<ul>
+    {% for category in category_list %}
+    <h1>
+        <li>категория - {{ category.category }}, <span> количество курсов: {{ category.course_count() }}.</span></li>
+    </h1>
+    <p>добавить курс в категорию <a href={{ url.create_course }}?id={{category.id}}>{{ category.category }},
+    </a> или посмотреть существующии.</p>
+    {% endfor %}
+
+</ul>
+<form action="" method="post">
+    <fieldset>
+        <legend>Создать категорию.</legend>
+        <p><label class="title" for="category">Введите название категории:</label>
+            <input type="text" name="category" id="category"><br/>
+
+        </p>
+    </fieldset>
+    <div class="submit"><input type="submit" value="Создать и вернутся в главное меню"/></div>
+</form>
+
+{% endblock %}
+{% block footer %}
+<br>
+{% include "includes/footer.html" %}
+{% endblock %}

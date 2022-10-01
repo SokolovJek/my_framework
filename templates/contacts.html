@@ -1,0 +1,38 @@
+{% extends "includes/base.html" %}
+{% block style %}
+{% include "includes/style.html" %}
+{% endblock %}
+
+
+{% block link %}
+{% include "includes/link.html" %}
+{% endblock %}
+{% block body %}
+<form action="" method="post">
+    <fieldset>
+        <legend>Есть вопрос? Отправте нам сообщение! И мы с вами свяжемся.</legend>
+        <p><label class="title" for="name">Ваше имя:</label>
+            <input type="text" name="name" id="name"><br/>
+            <label class="title" for="email">Ваш email:</label>
+            <input type="text" name="email" id="email"></p>
+        <p><label for="location" class="title">Ближайший центр:</label>
+            <select name="location" id="location">
+                <option value="ny">Москва</option>
+                <option value="il">Санкт-Петербург</option>
+                <option value="ca">Екатеринбург</option>
+            </select></p>
+        <p>
+            <textarea name="message" cols="30" rows="4" placeholder="Введите сообщение"></textarea>
+        </p>
+        <span class="title">Вы левша?)</span>
+        <label><input type="radio" name="member" value="yes"/> Да</label>
+        <label><input type="radio" name="member" value="no"/> Нет</label></p>
+    </fieldset>
+    <div class="submit"><input type="submit" value="Отправить"/></div>
+</form>
+
+{% endblock %}
+{% block footer %}
+<br>
+{% include "includes/footer.html" %}
+{% endblock %}
