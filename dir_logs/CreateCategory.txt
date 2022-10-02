@@ -30,3 +30,5 @@
 2022-10-01 19:11:59CreateCategory выполнялся 0.02 ms.
 2022-10-01 19:12:01CreateCategory выполнялся 0.02 ms.
 2022-10-01 19:12:10CreateCategory выполнялся 0.02 ms.
+2022-10-02 12:58:42CreateCategory выполнялся 0.02 ms.
+2022-10-02 12:58:49CreateCategory выполнялся 0.01 ms.

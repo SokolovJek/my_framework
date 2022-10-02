@@ -1,12 +1,16 @@
 from framework.temlator import render
-from patterns.creational_patterns import Engine, Logger
+from patterns.creational_patterns import Engine, Logger, MapperRegistry
 from patterns.structural_pattern import UrlDecorator, Debug
 from patterns.behavioural_patterns import ListView, CreateView, BaseSerializer, EmailNotifier, SmsNotifier
+from patterns.architectural_system_pattern_unit_of_work import UnitOfWork
+
 
 site = Engine()
 logger = Logger('views')
 email_notifier = EmailNotifier()
 sms_notifier = SmsNotifier()
+UnitOfWork.new_current()
+UnitOfWork.get_current().set_mapper_registry(MapperRegistry)
 
 
 @UrlDecorator('/')
@@ -112,8 +116,12 @@ class CopyCourse:
 
 @UrlDecorator('/student_list/')
 class StudentListView(ListView):
-    queryset = site.students
+    # queryset = site.students
     template_name = 'student_list.html'
+
+    def get_queryset(self):
+        mapper = MapperRegistry.get_current_mapper('student')
+        return mapper.all()
 
 
 @UrlDecorator('/create_student/')
@@ -122,9 +130,11 @@ class StudentCreateView(CreateView):
 
     def create_obj(self, data: dict):
         name = data['name']
-        # name = site.decode_value(name)
+        name = site.decode_value(name)
         new_obj = site.create_user('student', name)
         site.students.append(new_obj)
+        new_obj.mark_new()
+        UnitOfWork.get_current().commit()
 
 
 @UrlDecorator('/add_student/')
@@ -142,10 +152,10 @@ class AddStudentByCourseCreateView(CreateView):
 
     def create_obj(self, data: dict):
         course_name = data['course_name']
-        # course_name = site.decode_value(course_name)
+        course_name = site.decode_value(course_name)
         course = site.get_course(course_name)
         student_name = data['student_name']
-        # student_name = site.decode_value(student_name)
+        student_name = site.decode_value(student_name)
         student = site.get_student(student_name)
         course.add_student(student)
 
