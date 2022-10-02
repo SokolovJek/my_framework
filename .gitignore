@@ -42,3 +42,4 @@ docs/_build/
 *env
 .idea
 *lessons
+patterns.sqlite
